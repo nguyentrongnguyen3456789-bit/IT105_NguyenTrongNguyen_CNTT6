@@ -1,0 +1,53 @@
+<mxfile host="app.diagrams.net" modified="2026-09-13T17:30:00.000Z" agent="ChatGPT" version="24.7.17" type="device">
+  <diagram id="rikkeicare" name="RikkeiCare Class Diagram">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <mxCell id="nv" value="&lt;b&gt;NhanVienYTe&lt;/b&gt;&lt;hr&gt;- maNhanVien: String&lt;br&gt;- hoTen: String&lt;br&gt;- soDienThoai: String" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingTop=8;spacingLeft=8;fontSize=14;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="430" y="80" width="300" height="130" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="bs" value="&lt;b&gt;BacSi&lt;/b&gt;&lt;hr&gt;- chuyenKhoa: String&lt;br&gt;&lt;br&gt;+ kham(benhNhan): void" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingTop=8;spacingLeft=8;fontSize=14;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="220" y="300" width="270" height="120" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="yt" value="&lt;b&gt;YTa&lt;/b&gt;&lt;hr&gt;- khuVucTruc: String&lt;br&gt;&lt;br&gt;+ tiemThuoc(benhNhan): void" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingTop=8;spacingLeft=8;fontSize=14;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="670" y="300" width="270" height="120" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="khoa" value="&lt;b&gt;KhoaKham&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=14;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="70" y="535" width="240" height="100" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="gen1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;strokeWidth=1.5;" edge="1" parent="1" source="bs" target="nv">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="gen2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;strokeWidth=1.5;" edge="1" parent="1" source="yt" target="nv">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="agg" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=diamond;startFill=0;endArrow=none;strokeWidth=1.5;" edge="1" parent="1" source="khoa" target="nv">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="585" as="sourcePoint"/>
+            <mxPoint x="430" y="585" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="m1" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="315" y="555" width="40" height="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="m2" value="1..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="380" y="555" width="60" height="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="note" value="&lt;b&gt;Quan hệ:&lt;/b&gt;&lt;br&gt;◇ Aggregation: KhoaKham — NhanVienYTe&lt;br&gt;△ Generalization: BacSi, YTa — NhanVienYTe" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingTop=8;spacingLeft=8;fontSize=13;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="525" width="340" height="110" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="LD2N-TiOHvi56SvllB8y">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="h9oZ5kMW5Ips-6ZgR9SQ-5" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 16px;&quot;&gt;Customer&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 16px; font-weight: 400; text-align: left;&quot;&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="146" width="210" x="130" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="h9oZ5kMW5Ips-6ZgR9SQ-6" parent="h9oZ5kMW5Ips-6ZgR9SQ-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;- customerId: int&lt;/span&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;- fullName: String&lt;/span&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;- phoneNumber: String&lt;/span&gt;" vertex="1">
+          <mxGeometry height="86" width="210" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="h9oZ5kMW5Ips-6ZgR9SQ-7" parent="h9oZ5kMW5Ips-6ZgR9SQ-5" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="210" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="h9oZ5kMW5Ips-6ZgR9SQ-8" parent="h9oZ5kMW5Ips-6ZgR9SQ-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;+ placeOrder(): Order&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="210" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="h9oZ5kMW5Ips-6ZgR9SQ-9" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Order" vertex="1">
+          <mxGeometry height="126" width="210" x="530" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="h9oZ5kMW5Ips-6ZgR9SQ-10" parent="h9oZ5kMW5Ips-6ZgR9SQ-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;- orderId: int&lt;/span&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;- createdDate: Date&lt;/span&gt;" vertex="1">
+          <mxGeometry height="54" width="210" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="h9oZ5kMW5Ips-6ZgR9SQ-11" parent="h9oZ5kMW5Ips-6ZgR9SQ-9" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="210" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="h9oZ5kMW5Ips-6ZgR9SQ-12" parent="h9oZ5kMW5Ips-6ZgR9SQ-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;+ calculateTotal(): double&lt;/span&gt;" vertex="1">
+          <mxGeometry height="38" width="210" y="88" as="geometry" />
+        </mxCell>
+        <mxCell id="h9oZ5kMW5Ips-6ZgR9SQ-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="330" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="h9oZ5kMW5Ips-6ZgR9SQ-16" edge="1" parent="1" source="h9oZ5kMW5Ips-6ZgR9SQ-6" style="endArrow=none;html=1;rounded=0;exitX=1.013;exitY=0.594;exitDx=0;exitDy=0;exitPerimeter=0;" target="h9oZ5kMW5Ips-6ZgR9SQ-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="420" y="240" as="sourcePoint" />
+            <mxPoint x="470" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h9oZ5kMW5Ips-6ZgR9SQ-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="0..*" vertex="1">
+          <mxGeometry height="30" width="60" x="480" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="h9oZ5kMW5Ips-6ZgR9SQ-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 13px; text-align: left;&quot;&gt;Association&lt;/span&gt;&lt;br style=&quot;font-size: 13px; text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 13px; text-align: left;&quot;&gt;Một Customer có thể có nhiều Order&lt;/span&gt;&lt;br style=&quot;font-size: 13px; text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 13px; text-align: left;&quot;&gt;Mỗi Order thuộc về đúng 1 Customer&lt;/span&gt;" vertex="1">
+          <mxGeometry height="120" width="210" x="340" y="320" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
